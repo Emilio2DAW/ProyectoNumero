@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>¡Adivina el número mágico!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="card">
+    <h1>🎯 ¡Adivina el número mágico!</h1>
+    <p>Piensa en un número del <strong>1 al 100</strong> y trata de adivinarlo.</p>
+    <input id="guess" type="number" min="1" max="100" placeholder="1–100" />
+    <div>
+      <button id="tryBtn" class="btn-primary">¡Probar!</button>
+      <button id="resetBtn" class="btn-secondary">Nuevo juego</button>
+    </div>
+    <p id="attempts">Intentos: 0</p>
+    <p id="feedback" class="feedback">¡Listo para jugar!</p>
+    <p id="rating" class="rating"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
