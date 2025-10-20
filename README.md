@@ -41,5 +41,5 @@ El proyecto está dividido en tres archivos principales:
 ---
 
 ## 5. Autor
-**Autor:** Antonio Mariscal Rodríguez  
+**Autor:** Emilio Mariscal Sierra y Julio Javier Pascual Cruz 
 **Fecha:** Octubre 2025  
