@@ -1,26 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <!-- Configuración básica del documento -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>¡Adivina el número mágico!</title>
+
+  <!-- Fuente personalizada desde Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Enlace al archivo de estilos CSS -->
   <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
+  <!-- Contenedor principal del juego -->
   <div class="card">
-    <h1>🎯 ¡Adivina el número mágico!</h1>
+    <h1>¡Adivina el número mágico!</h1>
     <p>Piensa en un número del <strong>1 al 100</strong> y trata de adivinarlo.</p>
+
+    <!-- Campo de entrada para el número -->
     <input id="guess" type="number" min="1" max="100" placeholder="1–100" />
+
+    <!-- Botones para probar y reiniciar el juego -->
     <div>
       <button id="tryBtn" class="btn-primary">¡Probar!</button>
       <button id="resetBtn" class="btn-secondary">Nuevo juego</button>
     </div>
+
+    <!-- Elementos para mostrar intentos, retroalimentación y valoración -->
     <p id="attempts">Intentos: 0</p>
     <p id="feedback" class="feedback">¡Listo para jugar!</p>
     <p id="rating" class="rating"></p>
   </div>
 
+  <!-- Script principal del juego -->
   <script src="script.js"></script>
 </body>
 </html>
